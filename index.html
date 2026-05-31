@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My Recipes</h1>
-    <ul>
-        <li><a href="./recipes/cordonBleu.html">Chicken Cordon Bleu</a></li>
-        <li><a href="./recipes/MangoGraham.html">Mango Grahams</a></li>
-        <li><a href="./recipes/Spaghetti.html">Filipino-Style Spaghetti</a></li>
-    </ul>
+    <div class="container">
+        <h1>My Recipes</h1>
+        <p class="intro">Welcome to my personal collection of delicious recipes. Browse the cards below to discover tasty dishes and detailed cooking instructions.</p>
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <a href="./recipes/cordonBleu.html">
+                    <img src="./images/chickenCordon.jpeg" alt="Chicken Cordon Bleu">
+                    <h3>Chicken Cordon Bleu</h3>
+                </a>
+            </div>
+            <div class="recipe-card">
+                <a href="./recipes/MangoGraham.html">
+                    <img src="./images/mango.jpeg" alt="Mango Grahams">
+                    <h3>Mango Grahams</h3>
+                </a>
+            </div>
+            <div class="recipe-card">
+                <a href="./recipes/Spaghetti.html">
+                    <img src="./images/spag.jpeg" alt="Filipino-Style Spaghetti">
+                    <h3>Filipino-Style Spaghetti</h3>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
